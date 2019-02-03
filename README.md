@@ -21,13 +21,13 @@ python3 csv_normalizer.py input_csv_file
 - Execute "python3 csv_normalizer.py input_csv_file" to run
 - The output .csv file will be generated in the same directory, with filename "OUTPUT_"+input_csv_file
 
-## EXAMPLE ##
+## EXAMPLE: ##
 ```
 python3 csv_normalizer.py sample.csv
 ``` 
-OUTPUT_sample.csv" generated in current directory
+- OUTPUT_sample.csv generated in current directory
 
-## ANALYSIS ##
+## ANALYSIS: ##
 - space complexity O(1) : only one row of .csv data is held in memory at a time
 - time  complexity O(n) : runtime has a linear relation to the number of .csv rows
 
