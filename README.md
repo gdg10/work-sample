@@ -19,7 +19,7 @@ python3 csv_normalizer.py input_csv_file
 - Navigate to the directory that contains csv_normalizer.py, nrmlz.py, and an input .csv file
 - The tool takes the input .csv file as a command line argument. 
 - Execute "python3 csv_normalizer.py input_csv_file" to run
-- The output .csv file will be generated in the same directory, with filename "OUTPUT_"+input_csv_file
+- The output .csv file will be generated in the current directory, with filename "OUTPUT_"+input_csv_file
 
 ## EXAMPLE: ##
 ```
