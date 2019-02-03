@@ -1,6 +1,6 @@
-#CSV NORMALIZER TOOL
+#CSV NORMALIZER TOOL#
 
-##ENVIRONMENT/BUILD:
+##ENVIRONMENT/BUILD:##
 - Use a Mac computer with macOS High Sierra version 10.13
 - Install [Python3](https://www.python.org/downloads/). I used version 3.7.2. 
 - Use the "pip" tool (automatically installed with python3) to install the pytz, and datetime packages:
@@ -17,7 +17,7 @@
 	```
 - You're finished setting up!
 
-##USAGE:
+##USAGE:##
 ```
 python3 csv_normalizer.py input_csv_file
 ```
@@ -26,17 +26,17 @@ python3 csv_normalizer.py input_csv_file
 2. The tool takes the input .csv file as a command line argument. Execute "python3 csv_normalizer.py input_csv_file" to run the tool
 3. The output .csv file will be generated in the same directory, with filename "OUTPUT_"+input_csv_file
 
-##EXAMPLE 
+##EXAMPLE##
 	```
 	python3 csv_normalizer.py sample.csv"\
 	``` 
 OUTPUT_sample.csv" generated in current directory
 
-##ANALYSIS
+##ANALYSIS##
 space complexity O(1) : only one row of .csv data is held in memory at a time
 time  complexity O(n) : runtime has a linear relation to the number of .csv rows
 
-##REQUIREMENTS:
+##REQUIREMENTS:##
 These requirements were extracted from the prompt. 
 They are commented in the source code --near where they are fulfilled--for easy traceability
 
